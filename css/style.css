@@ -1,51 +1,94 @@
 /*
- * Style tweaks
- * --------------------------------------------------
- */
+* Style tweaks
+* --------------------------------------------------
+*/
 html,
 body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
-}
-body {
+} body {
   padding-top: 50px;
-}
-footer {
+} footer {
   padding: 30px 0;
 }
 
 /*
- * Off Canvas
- * --------------------------------------------------
- */
+* Off Canvas
+* --------------------------------------------------
+*/
 @media screen and (max-width: 767px) {
   .row-offcanvas {
-    position: relative;
-    -webkit-transition: all 0.25s ease-out;
-    -moz-transition: all 0.25s ease-out;
-    transition: all 0.25s ease-out;
-  }
-
-  .row-offcanvas-right
+  position: relative;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  } .row-offcanvas-right
   .sidebar-offcanvas {
-    right: -50%; /* 6 columns */
-  }
-
-  .row-offcanvas-left
+  right: -50%; /* 6 columns */
+  } .row-offcanvas-left
   .sidebar-offcanvas {
-    left: -50%; /* 6 columns */
-  }
-
-  .row-offcanvas-right.active {
-    right: 50%; /* 6 columns */
-  }
-
-  .row-offcanvas-left.active {
-    left: 50%; /* 6 columns */
-  }
-
-  .sidebar-offcanvas {
-    position: absolute;
-    top: 0;
-    width: 50%; /* 6 columns */
+  left: -50%; /* 6 columns */
+  } .row-offcanvas-right.active {
+  right: 50%; /* 6 columns */
+  } .row-offcanvas-left.active {
+  left: 50%; /* 6 columns */
+  } .sidebar-offcanvas {
+  position: absolute;
+  top: 0;
+  width: 50%; /* 6 columns */
   }
 }
+
+a.svg {
+  display: inline-block; 
+} a.svg:after {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left:0;
+} .logo-container {
+  margin-top: 15px;
+  height: 0;
+  padding-bottom: 33.33333333333333%;
+} #logo {
+  display: inline-block;
+  position: absolute;
+  top:0;
+  left:0;
+  padding: 0;
+  margin: 0;
+  width: 100%; 
+  height: 100%; 
+} .button-container {
+  margin-top: 15px;
+  height: 0;
+  padding-bottom: 33.33333333333333%;
+} #forum {
+  display: inline-block;
+  position: absolute;
+  top:0;
+  left:0;
+  padding: 5%;
+  margin: 20%;
+  width: 50%; 
+  height: 50%; 
+} #about {
+  display: inline-block;
+  position: absolute;
+  top:0;
+  left:0;
+  padding: 5%;
+  margin: 0;
+  width: 50%; 
+  height: 50%; 
+} #games {
+  display: inline-block;
+  position: absolute;
+  top:0;
+  left:0;
+  padding: 5%;
+  margin: 0;
+  width: 50%; 
+  height: 50%; 
+} 
