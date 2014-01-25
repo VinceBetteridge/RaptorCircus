@@ -304,7 +304,7 @@ html {
 
 body {
   font-family: 'Josefin Slab', Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 180%;
   line-height: 1.428571429;
   color: #333333;
   background-color: #ffffff;
@@ -398,7 +398,7 @@ h6,
 .h5,
 .h6 {
   font-family: 'Josefin Slab', Helvetica, Arial, sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.1;
   color: inherit;
 }
@@ -5259,7 +5259,7 @@ a.list-group-item.active > .badge,
   }
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 63px;
+    font-size: 2em;
   }
 }
 
