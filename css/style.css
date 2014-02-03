@@ -37,7 +37,9 @@ body {
   width: 50%; /* 6 columns */
   }
 }
-
+p {
+font-family: Georgia, serif;
+}
 a.svg {
   display: inline-block; 
 } a.svg:after {
@@ -50,7 +52,6 @@ a.svg {
 } .logo-container {
   position: relative;
   height: 0;
-  margin-top: 15px;
   margin-right: 10%;
   margin-left: 10%;
   padding-bottom: 80%;
@@ -59,7 +60,6 @@ a.svg {
   .logo-container {
     position: relative;
     height: 0;
-    margin-top: 15px;
     margin-right: 25%;
     margin-left: 25%;
     padding-bottom: 50%;
@@ -69,7 +69,6 @@ a.svg {
   .logo-container {
     position: relative;
     height: 0;
-    margin-top: 15px;
     margin-right: 16.6666666667%;
     margin-left: 16.6666666667%;
     padding-bottom: 66.6666666667%;

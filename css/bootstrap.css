@@ -298,15 +298,14 @@ table {
 }
 
 html {
-  font-size: 62.5%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
   font-family: 'Josefin Slab', Helvetica, Arial, sans-serif;
-  font-size: 180%;
+  font-size: 100%;
   line-height: 1.428571429;
-  color: #333333;
+  color: #7D6F5A;
   background-color: #ffffff;
 }
 
@@ -4801,12 +4800,15 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse {
-  background-color: #222222;
+  background-color: #7D6F5A;
   border-color: #080808;
 }
 
 .navbar-inverse .navbar-brand {
-  color: #999999;
+  color: #F2E9C1;
+  font-size: 140%;
+  letter-spacing:1px;
+  font-weight: bold;
 }
 
 .navbar-inverse .navbar-brand:hover,
@@ -4816,11 +4818,14 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-text {
-  color: #999999;
+  color: #F2E9C1;
+  font-size: 120%;
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #999999;
+  color: #F2E9C1;
+  font-size: 120%;
+  letter-spacing:1px;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
@@ -4832,8 +4837,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #ffffff;
-  background-color: #080808;
+  color: #7D6F5A;
+  background-color: #F2E9C1;
 }
 
 .navbar-inverse .navbar-nav > .disabled > a,
@@ -5223,11 +5228,11 @@ a.list-group-item.active > .badge,
 .jumbotron {
   padding: 30px;
   margin-bottom: 30px;
-  font-size: 21px;
+  font-size: 100%;
   font-weight: 200;
   line-height: 2.1428571435;
   color: inherit;
-  background-color: #eeeeee;
+  background-color: #ffffff;
 }
 
 .jumbotron h1,
