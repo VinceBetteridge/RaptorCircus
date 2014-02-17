@@ -65,6 +65,10 @@ h1 {
   font-size: 2em;
 }
 
+h2 {
+  font-size: 1.5em;
+}
+
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -302,7 +306,7 @@ html {
 }
 
 body {
-  font-family: 'Josefin Slab', Helvetica, Arial, sans-serif;
+  font-family: Georgia, serif;
   font-size: 100%;
   line-height: 1.428571429;
   color: #7D6F5A;
@@ -463,36 +467,6 @@ h6 .small {
   font-size: 75%;
 }
 
-h1,
-.h1 {
-  font-size: 36px;
-}
-
-h2,
-.h2 {
-  font-size: 30px;
-}
-
-h3,
-.h3 {
-  font-size: 24px;
-}
-
-h4,
-.h4 {
-  font-size: 18px;
-}
-
-h5,
-.h5 {
-  font-size: 14px;
-}
-
-h6,
-.h6 {
-  font-size: 12px;
-}
-
 p {
   margin: 0 0 10px;
 }
@@ -585,6 +559,7 @@ ul,
 ol {
   margin-top: 0;
   margin-bottom: 10px;
+  list-style: none;
 }
 
 ul ul,
@@ -4486,6 +4461,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-brand {
+  font-family: 'Josefin Slab', Helvetica, Arial, sans-serif;
   float: left;
   padding: 15px 15px;
   font-size: 18px;
@@ -4534,6 +4510,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-nav {
+  font-family: 'Josefin Slab', Helvetica, Arial, sans-serif;
   margin: 7.5px -15px;
 }
 
@@ -5227,12 +5204,11 @@ a.list-group-item.active > .badge,
 
 .jumbotron {
   padding: 30px;
-  margin-bottom: 30px;
   font-size: 100%;
   font-weight: 200;
   line-height: 2.1428571435;
   color: inherit;
-  background-color: #ffffff;
+  background-color: #F2E9C1;
 }
 
 .jumbotron h1,

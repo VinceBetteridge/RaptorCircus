@@ -52,9 +52,10 @@ a.svg {
 } .logo-container {
   position: relative;
   height: 0;
-  margin-right: 10%;
+  /*margin-right: 10%;
   margin-left: 10%;
-  padding-bottom: 80%;
+  padding-bottom: 80%;*/
+  padding-bottom: 100%;
 } 
 @media (max-width: 767px) {
   .logo-container {
@@ -116,3 +117,27 @@ a.svg {
   width: 100%; 
   height: 100%; 
 } 
+/*
+* Feed Burner
+* --------------------------------------------------
+*/
+.feedTitle,
+#creditfooter{
+  display: none;
+} .headline a{
+  font-size: 1.75em;
+  font-family: 'Josefin Slab', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #7D6F5A;
+} .headline a:hover{
+  text-decoration: none;
+  color: #b6aa90;
+} .feedItemAuthor {
+  font-style: italic;
+} .date {
+  text-align: right;
+  font-weight: bold;
+} .feedburnerFeedBlock ul {
+  padding: 0;
+}
