@@ -293,7 +293,7 @@ table {
   }
 }
 
-*,
+*, /* this makes padding and border be taken from the inside instead of the outside.*/
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
