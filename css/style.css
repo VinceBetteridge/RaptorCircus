@@ -14,6 +14,10 @@ body {
 } ul {
   padding: 0;
 }
+/*nth child test making every other jumbotron*/
+body .jumbotron:nth-child(odd) {
+  background-color: #ffffff;
+}
 
 /*
 * Off Canvas
@@ -64,6 +68,11 @@ a.svg {
   border-radius: 300px;
   width: 100%;
   height: 100%;
+}
+@media (min-width: 768px) {
+  .pull-right-large {
+  float: right !important;
+  }
 }
 @media (max-width: 767px) {
   .logo-container {
@@ -143,11 +152,25 @@ a.svg {
   color: #b6aa90;
 } .feedItemAuthor {
   font-style: italic;
+  margin-top: 0.3em;
+  margin-bottom: -1.35em;
 } .date {
   text-align: right;
   font-weight: bold;
+  margin-bottom: 0.5em;
 } .feedburnerFeedBlock ul {
   padding: 0;
-}  .feedburnerFeedBlock ul li {
-  padding-top: 1em;
+} .feedburnerFeedBlock ul li {
+  padding-top: 2em;
+} .feedburnerFeedBlock ul li div a img{
+  /*margin: 1em;*/
+} 
+@media (max-width: 650px) {
+  .feedburnerFeedBlock ul li div a img{
+  width: 100%;
+  height: 100%;
+  margin: 0em -1em 1em;
+  } .feedburnerFeedBlock ul li div a{
+  float: none !important;
+  }
 }
