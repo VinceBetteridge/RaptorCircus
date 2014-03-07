@@ -59,33 +59,15 @@
     <div class="jumbotron">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-sm-3 col-lg-2">
-                    <div class="logo-container">
-                        <a href="#" class="svg">
-                            <object type="image/svg+xml" data="img/RaptorCircusLogo.svg" id="logo"></object>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-9 col-sm-9 col-lg-10">
-                    <h1 class="text-center">Utah Games</h1>
-                    <p>Here you will find games currently in development or recently released by Utah game developers. If you are a developer in Utah interested in promoting your game <a href="http://raptorcircus.com/forum/classifieds-f9.html">check out our forums.</a></p>
-                </div>
-            </div>
-            <!-- /row -->
-        </div>
-        <!-- /container -->
-    </div>
-    <!-- /jumbotron -->
-    <div class="jumbotron">
-        <div class="container">
-            <div class="row">
                 <div class="col-md-4 col-sm-5 col-lg-4">
-                    <a href="vincebetteridge.blogspot.com"><img class="screenshot" src="img/KaijuStomp.png" alt="Kaiju Stomp"></a>
+                    <div class="col-md-4 col-sm-5 col-lg-4">
+                        <a href="vincebetteridge.blogspot.com"><img class="screenshot" src="img/KaijuStomp.png" alt="Together"></a>
+                    </div>
                 </div>
                 <div class="col-md-8 col-sm-7 col-lg-8">
                     <h1 class="text-left">Kaiju Stomp</h1>
-                    <h2 class="text-right">Vince Betteridge</h2>
-                    <p>Kaiju Stomp is a board game for up to four players. Each player is a giant monster that jumps around a city in search of power crystals. Be the first to collect all your power crystals and bring them to your reactor to become a supreme beast. Once you are supreme you must stomp on your enemies before they also become supreme or you enter sudden elimination.</p>
+                    <h2 class="text-right">Vince Betteridge / Raptor Circus</h2>
+                    <p>Magnetic By Nature is platforming without platforms, a 2D action-puzzler for Windows, Mac, and Linux. Unique magnet physics propel you through a stylish netherworld of vivid color and constant danger. As the last living automaton, you must rappel from rolling magnets, catapult across chasms, and slingshot through space to reactivate long-lost friends.</p>
                     <p><a href="vincebetteridge.blogspot.com">vincebetteridge.blogspot.com</a></p>
                 </div>
             </div>

@@ -13,6 +13,8 @@ body {
   padding: 30px 0;
 } ul {
   padding: 0;
+} h2 {
+  margin-top: 10px;
 }
 /*nth child test making every other jumbotron*/
 body .jumbotron:nth-child(odd) {
@@ -78,6 +80,8 @@ a.svg {
 @media (min-width: 768px) {
   .pull-right-large {
   float: right !important;
+  } .screenshot {
+    margin-top: 2em;
   }
 }
 @media (max-width: 767px) {
@@ -112,6 +116,8 @@ a.svg {
   padding: 0;
   width: 100%; 
   height: 100%; 
+} .screenshot {
+  width: 100%;
 }
 /*
 * Feed Burner
